@@ -1,0 +1,99 @@
+/* Tara Abercromby, ID 012052003, D279 User Interface Design*/
+
+header {
+    background-color: white;
+}
+
+#headercontainer {
+    display: flex;
+}
+#divcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#td {
+    border: 2px solid black;
+    padding: 5px;
+}
+h1 {
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font: xx-large;
+    font-weight: bold;
+    margin: 25px;
+    width: 95%;
+}
+
+li {
+    font-weight: bold;
+}
+
+button {
+    background-color: #BDBDBD;
+    color: #003B6D;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 98%;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+a {
+    font-weight: bold;
+    color: darkblue;
+}
+
+a:hover {
+    background-color: yellow;
+    }
+
+button:hover {
+    background-color: yellow;
+}
+
+a:focus {
+    background-color: yellow;
+}
+
+a:visited {
+    color: purple;
+}
+
+figure {
+    max-width: 100%;
+    margin: 20px auto;
+    text-align: center; /* Centers the image and text */
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 0.9em;
+    color: #555555;
+    margin-top: 8px; /* Adds space below the image */
+}
+
+
+/* For tablets and smaller */
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+    }
+}
+
+/* For mobile phones */
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+}
